@@ -1,0 +1,33 @@
+{
+  "showTemplateUpload": false,
+  "templateUploadBaseUrl": "https://api-php.cee.metadatacenter.orgx",
+  "templateUploadEndpoint": "/upload.php",
+  "templateDownloadEndpoint": "/download.php",
+  "templateUploadParamName": "3520cf061bba4919a8ea4b74a07af01b",
+  "templateDownloadParamName": "9ff482bacac84c499655ab58efdf590a",
+
+  "showDataSaver": true,
+  "dataSaverEndpointUrl": "http://localhost:8000/datasave.php",
+
+  "showSampleTemplateLinks": true,
+  "expandedSampleTemplateLinks": false,
+  "sampleTemplateLocationPrefix": "https://component.metadatacenter.orgx/cedar-embeddable-editor-sample-templates/",
+  "loadSampleTemplateName": "01",
+
+  "showFooter": true,
+  "showHeader": true,
+
+  "terminologyProxyUrl": "https://api-php.cee.metadatacenter.org/index.php",
+
+  "showTemplateRenderingRepresentation": true,
+  "showMultiInstanceInfo": false,
+  "showTemplateSourceData": false,
+  "showInstanceDataCore": false,
+  "showInstanceDataFull": true,
+
+  "expandedInstanceDataCore": false,
+  "expandedInstanceDataFull": false,
+  "expandedTemplateSourceData": false,
+  "expandedTemplateRenderingRepresentation": false,
+  "expandedMultiInstanceInfo": false
+}
