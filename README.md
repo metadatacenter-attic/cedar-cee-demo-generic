@@ -1,6 +1,6 @@
 CEDAR Embeddable Editor Generic Demo
 =======================
-CEDAR Embeddable Editor Integration into a simple HTML + Javascript + CSS website
+CEDAR Embeddable Editor Integration into a simple HTML + Javascript website
 
 # Installation
 
