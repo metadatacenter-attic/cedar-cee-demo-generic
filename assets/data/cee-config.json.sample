@@ -11,8 +11,8 @@
 
   "showSampleTemplateLinks": true,
   "expandedSampleTemplateLinks": false,
-  "sampleTemplateLocationPrefix": "https://component.staging.metadatacenter.org/cedar-embeddable-editor-sample-templates/",
-  "loadSampleTemplateName": "01",
+  "sampleTemplateLocationPrefix": "https://component.metadatacenter.org/cedar-embeddable-editor-sample-templates/",
+  "loadSampleTemplateName": "53",
 
   "showFooter": true,
   "showHeader": true,
