@@ -1,0 +1,82 @@
+body {
+    /*margin: 0;*/
+    /*font-family: Times;*/
+}
+
+.mat-card {
+    /*font-family: Times;*/
+}
+
+.iterable-component {
+    /*background-color: red;*/
+}
+
+.non-iterable-component {
+    /*background-color: green;*/
+}
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+    /*background-color: blue;*/
+}
+
+.image-component {
+/*    background-color: #e5daa1;*/
+/*    max-width: 50%;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    margin-bottom: 20px;*/
+}
+
+.section-break-component {
+/*    background-color: #f0f8f7;*/
+/*    margin-top: 30px;*/
+}
+
+.youtube-component {
+/*    background-color: #ff0000;*/
+/*    min-width: 400px;*/
+/*    max-width: 640px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    margin-bottom: 20px;*/
+}
+
+.icon-help {
+/*    margin-left: 10px;*/
+}
+
+.icon-src {
+/*    margin-left: 10px;*/
+}
+
+.header-image {
+/*    background-image: url('/assets/images/cedar-logo-80x80.png');*/
+/*    background-size: cover;*/
+/*    background-color: #0B3938;*/
+}
+
+.cedar-logo {
+/*    background-image: url('/assets/images/cedar-logo-80x80.png');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    width: 70px;*/
+/*    height: 70px;*/
+}
+
+.template-card {
+/*    max-width: 90%;*/
+/*    background-color: #f8f8f8;*/
+}
+
+.pager-container {
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: right;*/
+/*    align-items: center;*/
+/*    margin-bottom: 20px;*/
+/*    margin-top: 10px;*/
+}
+
+.pager-chips {
+/*    margin-right: 20px;*/
+}
