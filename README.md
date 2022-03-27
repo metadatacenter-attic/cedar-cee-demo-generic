@@ -4,7 +4,11 @@ This demo provides a sample integration of CEE into a generic HTML + Javascript 
 
 # Installation
 
-## Clone the project
+All of the required dependencies, such as javascript libraries, images, and the latest version of the CEE Webcomponent are already packaged with this demo. You can use this demo as a shell for your own application or as a reference on how to embed and configure the CEE Webcomponent in your own environment.
+
+## Clone the repository
+
+Clone this repository onto a local directory of your choice:
 
 ```shell
 git clone https://github.com/metadatacenter/cedar-cee-demo-generic.git
@@ -23,7 +27,7 @@ cp assets/data/cee-config.json.sample assets/data/cee-config.json
 
 ### Metadata save endpoint
 
-If you plan to enable the metadata save functionality, you will need to change the following configuration parameters in your `cee-config.json`:
+CEE offers the functionality to save user metadata using a custom remote endpoint. If you plan to enable this feature, you will need to change the following configuration parameters in your `cee-config.json`:
 
 ```json
 "showDataSaver": true,
@@ -49,7 +53,7 @@ For a more complete description of these endpoints as well as other optional con
 
 https://github.com/metadatacenter/cedar-embeddable-editor#configuration
 
-# Start server and open the demo app
+# Start server and navigate to the demo app in browser
 
 Start a Web server. For example, to start a local PHP server, run:
 
