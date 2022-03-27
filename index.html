@@ -27,10 +27,20 @@
   <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
   <script type="text/javascript">
-  document.addEventListener('WebComponentsReady', function () {
-    var comp = document.querySelector('cedar-embeddable-editor');
-    comp.loadConfigFromURL('assets/data/cee-config.json');
-  });
+    function getCustomTemplateInfo() {
+      return {
+        mycustomtitle: 'ACME Template',
+        mycustomurl: 'https://doi.org/10.15468/9vuieb',
+        mycutomdataattribute1: 'Hello World',
+        mycutomdataattribute2: {name: 'John Doe', age: 35}
+      };
+    }
+
+    document.addEventListener('WebComponentsReady', function () {
+      const comp = document.querySelector('cedar-embeddable-editor');
+      comp.loadConfigFromURL('assets/data/cee-config.json');
+      comp.templateInfo = getCustomTemplateInfo();
+    });
   </script>
 </head>
 <body>
