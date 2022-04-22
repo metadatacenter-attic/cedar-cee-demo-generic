@@ -36,10 +36,54 @@
       };
     }
 
+    function restoreMetadataFromURL(metaUrl, cee, successHandler = null, errorHandler = null) {
+      const xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = () => {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+          if (xhr.status === 200) {
+            const jsonMeta = JSON.parse(xhr.responseText);
+            cee.metadata = jsonMeta;
+
+            if (successHandler) {
+              successHandler(jsonMeta);
+            }
+          } else {
+            if (errorHandler) {
+              errorHandler(xhr);
+            }
+          }
+        }
+      };
+      xhr.open('GET', metaUrl, true);
+      xhr.send();
+    }
+
     document.addEventListener('WebComponentsReady', function () {
-      const comp = document.querySelector('cedar-embeddable-editor');
-      comp.loadConfigFromURL('assets/data/cee-config.json');
-      comp.templateInfo = getCustomTemplateInfo();
+      const cee = document.querySelector('cedar-embeddable-editor');
+      cee.loadConfigFromURL('assets/data/cee-config.json');
+      cee.templateInfo = getCustomTemplateInfo();
+
+      const saveTime = 5000;
+      const restoreTime = 15000;
+      let restore = false;
+
+      if (restore) {
+        setTimeout(() => {
+          restoreMetadataFromURL('uploads/metadata-restore.json', cee);
+          console.log('Restored saved metadata after ' + restoreTime / 1000 + ' seconds');
+        }, restoreTime);
+      }
+      setInterval(() => {
+        const meta = cee.currentMetadata;
+
+        const xhr = new XMLHttpRequest();
+        xhr.open("POST", "http://localhost:8001/metadatasave.php");
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.setRequestHeader("Content-Type", "application/json");
+        xhr.send(JSON.stringify(meta, null, 2));
+        console.log('Saved metadata after ' + saveTime / 1000 + ' seconds');
+        console.log(meta);
+      }, saveTime);
     });
   </script>
 </head>
