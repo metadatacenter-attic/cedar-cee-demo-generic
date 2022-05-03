@@ -1,22 +1,13 @@
 {
   "@context": {
-    "NCBI SRA for Human Tissue": "https://schema.metadatacenter.org/properties/478c8001-c214-47be-a42c-8aa2e0f9267b",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
     "rdfs:label": {
       "@type": "xsd:string"
-    },
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "pav:derivedFrom": {
-      "@type": "@id"
-    },
-    "oslc": "http://open-services.net/ns/core#",
-    "NCBI BioSample for Human Tissue": "https://schema.metadatacenter.org/properties/1f63bb07-8e76-4203-9923-d79ce13297da",
-    "submission_pipeline": "https://schema.metadatacenter.org/properties/64e3f1d9-d5d4-4bac-b3bc-3c0a25866c06",
-    "Release Date": "https://schema.metadatacenter.org/properties/e2303235-ec20-4f88-a25c-3e04c0e3dbfe",
-    "schema:description": {
-      "@type": "xsd:string"
-    },
-    "pav:createdBy": {
-      "@type": "@id"
     },
     "schema:isBasedOn": {
       "@type": "@id"
@@ -24,311 +15,58 @@
     "schema:name": {
       "@type": "xsd:string"
     },
-    "schema": "http://schema.org/",
-    "pav": "http://purl.org/pav/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "oslc:modifiedBy": {
-      "@type": "@id"
+    "schema:description": {
+      "@type": "xsd:string"
     },
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "Notations for NCBI Human Element": "https://schema.metadatacenter.org/properties/feda4ef2-fb27-4845-988f-1397de11f813",
-    "pav:lastUpdatedOn": {
-      "@type": "xsd:dateTime"
+    "pav:derivedFrom": {
+      "@type": "@id"
     },
     "pav:createdOn": {
       "@type": "xsd:dateTime"
     },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
     "skos:notation": {
       "@type": "xsd:string"
     },
-    "NCBI BioProject for Human Tissue": "https://schema.metadatacenter.org/properties/ba2521d9-f23e-4700-9c12-4efef9e720a6"
+    "Controlled Standalone": "https://schema.metadatacenter.org/properties/46606e90-c433-4dc1-a21e-1b89b53ffe4e",
+    "Another Controlled Element": "https://schema.metadatacenter.org/properties/8fc549f9-56f3-4780-96e9-23988f18fe3c",
+    "Controlled Element": "https://schema.metadatacenter.org/properties/3b5d0ad4-f279-489e-96e8-0dd523c662b0"
   },
-  "Release Date": {
-    "@value": "2034-11-30",
-    "@type": "xsd:date"
-  },
-  "NCBI BioProject for Human Tissue": {
-    "@context": {
-      "Contact Email": "https://schema.metadatacenter.org/properties/96f054e4-b80a-462b-a995-7991928885ff",
-      "Relevant Publications": "http://xmlns.com/foaf/0.1/publications",
-      "Study Type": "https://schema.metadatacenter.org/properties/a187b4f5-e242-4719-a214-f611d0f1a066",
-      "Lab Name": "https://schema.metadatacenter.org/properties/3ff98b64-88bc-4b84-b2a9-10c55dbaf5ce",
-      "Lab Address": "https://schema.metadatacenter.org/properties/2f5e4303-ceb3-4156-91ca-9fe3f6634af1",
-      "Study ID": "https://schema.metadatacenter.org/properties/88119527-3676-4ff8-9889-4e711d1d6e9a",
-      "Study Title": "https://schema.metadatacenter.org/properties/a763c102-e6f1-441a-b171-ca6141ef98d0",
-      "Study Criteria": "http://scdontology.h3abionet.org/ontology/SCDO_0001033",
-      "Contact Information": "https://schema.metadatacenter.org/properties/c0dd60f3-bcf6-44be-b1e3-7adc27cedda5"
-    },
-    "Study ID": {
-      "@value": "123"
-    },
-    "Study Title": {
-      "@value": "My Fancy Title"
-    },
-    "Study Type": {
-      "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C158284",
-      "rdfs:label": "Alcohol Effect Study"
-    },
-    "Study Criteria": {
-      "@value": null
-    },
-    "Contact Information": {
-      "@value": null
-    },
-    "Contact Email": {
-      "@value": null
-    },
-    "Lab Name": {
-      "@value": null
-    },
-    "Lab Address": {
-      "@value": null
-    },
-    "Relevant Publications": {
-      "@value": null
-    }
-  },
-  "NCBI BioSample for Human Tissue": [
+  "Another Controlled Element": [
     {
       "@context": {
-        "Culture Collection": "https://schema.metadatacenter.org/properties/9c68c880-3833-4ea9-9bc1-e36dbbc5fa30",
-        "Organism": "https://schema.metadatacenter.org/properties/5b5276ba-52fe-4725-9c7a-485a46b979f3",
-        "Phenotype": "https://schema.metadatacenter.org/properties/36b12ce1-b260-4b71-b36f-6b5756b45ec9",
-        "Health State": "https://schema.metadatacenter.org/properties/394dd33b-9d6d-4844-8bf2-a0b638f97c77",
-        "Sample Description": "https://schema.metadatacenter.org/properties/2ed9bb89-519f-4844-9e49-415e5f4cd041",
-        "Biomaterial Provider": "https://schema.metadatacenter.org/properties/f5854bbc-2a4d-47f6-ac4e-64b56e455def",
-        "Sample Title": "https://schema.metadatacenter.org/properties/7d7154aa-2507-4ac5-b17d-21e36bf709ba",
-        "Population": "https://schema.metadatacenter.org/properties/543aa730-de51-4c1a-b1e7-0d344b1abf30",
-        "Cell Type": "https://schema.metadatacenter.org/properties/9d76ca8c-3663-49bd-9ce7-2c15350aa93e",
-        "Disease Stage": "https://schema.metadatacenter.org/properties/c675bda2-95e0-4b76-8007-02f7b7ba484d",
-        "Sex": "https://schema.metadatacenter.org/properties/7528ed15-7eaf-4ef2-9b26-6543fb163c35",
-        "Sample Type": "https://schema.metadatacenter.org/properties/abc350fa-0d0f-4c2c-9e27-e27f3172fe2f",
-        "Disease": "https://schema.metadatacenter.org/properties/c599e063-9217-443f-87df-8071b740f0aa",
-        "Age": "http://xmlns.com/foaf/0.1/age",
-        "Development Stage": "https://schema.metadatacenter.org/properties/1e933091-9bb7-4038-828e-3fc19c455172",
-        "Race": "https://schema.metadatacenter.org/properties/56f3caa2-ca0f-4e72-b9ad-4beaa0247dc7",
-        "Treatment": "https://schema.metadatacenter.org/properties/a246e5e3-7abb-42b5-ad76-f592982d3c13",
-        "Cell Subtype": "https://schema.metadatacenter.org/properties/46f2de26-8fa5-4f34-81f4-20f89757ad2a",
-        "Sample Name": "https://schema.metadatacenter.org/properties/d2f6f0d4-c2d5-44e3-b467-307bc8539de1",
-        "Cell Line": "https://schema.metadatacenter.org/properties/1b6754d2-b1ef-404d-9bd1-b5d559a115c4",
-        "Karyotype": "https://schema.metadatacenter.org/properties/46d1b879-5213-464b-a971-f81acd4e2fa9",
-        "Tissue": "https://schema.metadatacenter.org/properties/159b14f5-b5e9-4362-a92e-b310a4e3fa93",
-        "Ethnicity": "https://schema.metadatacenter.org/properties/8548eac4-328d-4ccc-bf9a-6ddb38336f6f",
-        "Isolate": "https://schema.metadatacenter.org/properties/a0e35dfc-f2d9-4544-b0bb-f44c03446281"
+        "Controlled Field 1 in Element": "https://schema.metadatacenter.org/properties/26779971-8825-44c3-9773-b6339665f0bd"
       },
-      "Sample Name": {
-        "@value": "My Sample 1"
-      },
-      "Sample Title": {
-        "@value": "Sample title 1"
-      },
-      "Organism": {
-        "@id": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
-        "rdfs:label": "Homo sapiens"
-      },
-      "Isolate": {
-        "@value": null
-      },
-      "Age": {
-        "@value": null
-      },
-      "Biomaterial Provider": {
-        "@value": null
-      },
-      "Sex": {
-        "@value": null
-      },
-      "Tissue": {},
-      "Cell Line": {},
-      "Cell Type": {},
-      "Cell Subtype": {},
-      "Culture Collection": {
-        "@value": null
-      },
-      "Development Stage": {
-        "@value": null
-      },
-      "Disease": {},
-      "Disease Stage": {
-        "@value": null
-      },
-      "Ethnicity": {
-        "@value": null
-      },
-      "Health State": {
-        "@value": null
-      },
-      "Karyotype": {
-        "@value": null
-      },
-      "Phenotype": {
-        "@value": null
-      },
-      "Population": {
-        "@value": null
-      },
-      "Race": {},
-      "Sample Type": {
-        "@value": null
-      },
-      "Treatment": {
-        "@value": null
-      },
-      "Sample Description": {
-        "@value": null
-      }
-    },
-    {
-      "@context": {
-        "Culture Collection": "https://schema.metadatacenter.org/properties/9c68c880-3833-4ea9-9bc1-e36dbbc5fa30",
-        "Organism": "https://schema.metadatacenter.org/properties/5b5276ba-52fe-4725-9c7a-485a46b979f3",
-        "Phenotype": "https://schema.metadatacenter.org/properties/36b12ce1-b260-4b71-b36f-6b5756b45ec9",
-        "Health State": "https://schema.metadatacenter.org/properties/394dd33b-9d6d-4844-8bf2-a0b638f97c77",
-        "Sample Description": "https://schema.metadatacenter.org/properties/2ed9bb89-519f-4844-9e49-415e5f4cd041",
-        "Biomaterial Provider": "https://schema.metadatacenter.org/properties/f5854bbc-2a4d-47f6-ac4e-64b56e455def",
-        "Sample Title": "https://schema.metadatacenter.org/properties/7d7154aa-2507-4ac5-b17d-21e36bf709ba",
-        "Population": "https://schema.metadatacenter.org/properties/543aa730-de51-4c1a-b1e7-0d344b1abf30",
-        "Cell Type": "https://schema.metadatacenter.org/properties/9d76ca8c-3663-49bd-9ce7-2c15350aa93e",
-        "Disease Stage": "https://schema.metadatacenter.org/properties/c675bda2-95e0-4b76-8007-02f7b7ba484d",
-        "Sex": "https://schema.metadatacenter.org/properties/7528ed15-7eaf-4ef2-9b26-6543fb163c35",
-        "Sample Type": "https://schema.metadatacenter.org/properties/abc350fa-0d0f-4c2c-9e27-e27f3172fe2f",
-        "Disease": "https://schema.metadatacenter.org/properties/c599e063-9217-443f-87df-8071b740f0aa",
-        "Age": "http://xmlns.com/foaf/0.1/age",
-        "Development Stage": "https://schema.metadatacenter.org/properties/1e933091-9bb7-4038-828e-3fc19c455172",
-        "Race": "https://schema.metadatacenter.org/properties/56f3caa2-ca0f-4e72-b9ad-4beaa0247dc7",
-        "Treatment": "https://schema.metadatacenter.org/properties/a246e5e3-7abb-42b5-ad76-f592982d3c13",
-        "Cell Subtype": "https://schema.metadatacenter.org/properties/46f2de26-8fa5-4f34-81f4-20f89757ad2a",
-        "Sample Name": "https://schema.metadatacenter.org/properties/d2f6f0d4-c2d5-44e3-b467-307bc8539de1",
-        "Cell Line": "https://schema.metadatacenter.org/properties/1b6754d2-b1ef-404d-9bd1-b5d559a115c4",
-        "Karyotype": "https://schema.metadatacenter.org/properties/46d1b879-5213-464b-a971-f81acd4e2fa9",
-        "Tissue": "https://schema.metadatacenter.org/properties/159b14f5-b5e9-4362-a92e-b310a4e3fa93",
-        "Ethnicity": "https://schema.metadatacenter.org/properties/8548eac4-328d-4ccc-bf9a-6ddb38336f6f",
-        "Isolate": "https://schema.metadatacenter.org/properties/a0e35dfc-f2d9-4544-b0bb-f44c03446281"
-      },
-      "Sample Name": {
-        "@value": "My Sample 2"
-      },
-      "Sample Title": {
-        "@value": "My sample title 2"
-      },
-      "Organism": {},
-      "Isolate": {
-        "@value": null
-      },
-      "Age": {
-        "@value": null
-      },
-      "Biomaterial Provider": {
-        "@value": null
-      },
-      "Sex": {
-        "@value": "male"
-      },
-      "Tissue": {
-        "@id": "http://purl.obolibrary.org/obo/BTO_0000017",
-        "rdfs:label": "A-431 cell"
-      },
-      "Cell Line": {},
-      "Cell Type": {},
-      "Cell Subtype": {},
-      "Culture Collection": {
-        "@value": null
-      },
-      "Development Stage": {
-        "@value": null
-      },
-      "Disease": {},
-      "Disease Stage": {
-        "@value": null
-      },
-      "Ethnicity": {
-        "@value": null
-      },
-      "Health State": {
-        "@value": null
-      },
-      "Karyotype": {
-        "@value": null
-      },
-      "Phenotype": {
-        "@value": null
-      },
-      "Population": {
-        "@value": null
-      },
-      "Race": {},
-      "Sample Type": {
-        "@value": null
-      },
-      "Treatment": {
-        "@value": null
-      },
-      "Sample Description": {
-        "@value": null
-      }
+      "Controlled Field 1 in Element": {}
     }
   ],
-  "NCBI SRA for Human Tissue": [
+  "Controlled Element": [
     {
       "@context": {
-        "Title": "https://schema.metadatacenter.org/properties/ed0cbe9e-8df9-432b-8ce6-63d849857083",
-        "Platform": "https://schema.metadatacenter.org/properties/fb86be44-87ea-42e2-a708-d872dfc855b4",
-        "Library Selection": "https://schema.metadatacenter.org/properties/bd7c7c06-0266-409a-bba7-1bb1d165b128",
-        "Library Source": "https://schema.metadatacenter.org/properties/0fdba7e4-0d6e-446c-a38e-783371be275e",
-        "Library Layout": "https://schema.metadatacenter.org/properties/480f3f8a-d94b-45a9-b8cd-fbe8e99bb5aa",
-        "Design Description": "https://schema.metadatacenter.org/properties/7dc16b80-c3c6-4259-8717-84e7a21bbd8a",
-        "File Type": "https://schema.metadatacenter.org/properties/4fb86884-a60f-4459-96be-4a1f18dafd34",
-        "Instrument Model": "https://schema.metadatacenter.org/properties/6b19fe93-63c4-4e34-a844-e4f160a0b36e",
-        "Library ID": "https://schema.metadatacenter.org/properties/2d1da4e3-ced9-430e-a35e-f47d82f7dd3b",
-        "Sample Name": "https://schema.metadatacenter.org/properties/417bce6e-0a00-4b91-ba3b-f7deb2eb3057",
-        "Library Strategy": "https://schema.metadatacenter.org/properties/4023b4ce-80ce-4c08-be86-84f7a24f9d11"
+        "Controlled Field 2 in Element": "https://schema.metadatacenter.org/properties/26779971-8825-44c3-9773-b6339665f0bd",
+        "Controlled Field 1 in Element": "https://schema.metadatacenter.org/properties/0626ae90-2e1f-47b5-b638-6fa51975bfca"
       },
-      "Sample Name": {
-        "@value": null
-      },
-      "Library ID": {
-        "@value": null
-      },
-      "Title": {
-        "@value": null
-      },
-      "Library Strategy": {
-        "@value": null
-      },
-      "Library Source": {
-        "@value": null
-      },
-      "Library Selection": {
-        "@value": null
-      },
-      "Library Layout": {
-        "@value": null
-      },
-      "Platform": {
-        "@value": null
-      },
-      "Instrument Model": {
-        "@value": null
-      },
-      "Design Description": {
-        "@value": null
-      },
-      "Optional SRA Attribute": [],
-      "File Type": {
-        "@value": null
-      },
-      "File Name": []
+      "Controlled Field 1 in Element": [
+        {
+          "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131506",
+          "rdfs:label": "Childhood Melanoma"
+        }
+      ],
+      "Controlled Field 2 in Element": {}
     }
   ],
-  "Notations for NCBI Human Element": {
-    "@context": {
-      "User Annotations": "https://schema.metadatacenter.org/properties/c8da19ce-de5c-4f74-87be-3c6ed0d15be3"
-    },
-    "User Annotations": {
-      "@value": null
+  "Controlled Standalone": [
+    {
+      "@id": "http://purl.bioontology.org/ontology/CSP/0603-8552",
+      "rdfs:label": "cell type"
     }
-  },
-  "submission_pipeline": {
-    "@value": "NCBI-HUMAN"
-  }
+  ]
 }
